@@ -41,6 +41,7 @@ namespace DVLD.Tests
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblUserMessage = new System.Windows.Forms.Label();
             this.ctrlSecheduledTest1 = new DVLD.Tests.ctrlSecheduledTest();
+            this.linkOnlineTest = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -176,6 +177,17 @@ namespace DVLD.Tests
             this.ctrlSecheduledTest1.TabIndex = 0;
             this.ctrlSecheduledTest1.TestTypeID = DVLD_Business.clsTestType.enTestType.VisionTest;
             // 
+            // linkOnlineTest
+            // 
+            this.linkOnlineTest.AutoSize = true;
+            this.linkOnlineTest.Location = new System.Drawing.Point(37, 99);
+            this.linkOnlineTest.Name = "linkOnlineTest";
+            this.linkOnlineTest.Size = new System.Drawing.Size(188, 20);
+            this.linkOnlineTest.TabIndex = 200;
+            this.linkOnlineTest.TabStop = true;
+            this.linkOnlineTest.Text = "Go to Online Written Test";
+            this.linkOnlineTest.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkOnlineTest_LinkClicked);
+            // 
             // frmTakeTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -183,6 +195,7 @@ namespace DVLD.Tests
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(603, 784);
+            this.Controls.Add(this.linkOnlineTest);
             this.Controls.Add(this.lblUserMessage);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
@@ -221,5 +234,6 @@ namespace DVLD.Tests
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblUserMessage;
+        private System.Windows.Forms.LinkLabel linkOnlineTest;
     }
 }
