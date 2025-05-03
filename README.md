@@ -40,6 +40,5 @@ Various menu options allow users to navigate between different modules like appl
 Users can perform actions such as adding or updating driving license applications, managing users, conducting tests, detaining or releasing licenses, and more.
 * System Administration:
 Administrators have additional privileges to manage application and test types, view system-wide information, and maintain security settings.
-### Note:
-* Certain features are marked as "Not Implemented Yet" in the interface, indicating planned enhancements or areas under development.
-* Feel free to contribute to this project by providing feedback, suggesting new features, or submitting pull requests. contact us at hamzalafsioui@gmail.com
+
+
